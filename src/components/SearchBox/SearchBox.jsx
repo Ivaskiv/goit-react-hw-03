@@ -1,4 +1,4 @@
-import css from './'
+import css from './SearchBox.module.css'
 
 const SearchBox = ({ filterText, onFilterChange }) => {
  return (
