@@ -1,0 +1,20 @@
+
+.searchBox input{
+ padding: 10px; 
+ margin: 12px; 
+ width: 376px;
+ height: auto;
+ font-size: 16px;
+
+ background-color: #ffffff;
+ border: 3px solid #423d3d;
+ transition: border-color 0.25s;
+ border-radius: 12px;
+}
+
+input:active,
+input:hover,
+input:focus{
+  border-color: #087a08; 
+  outline: none; 
+}
