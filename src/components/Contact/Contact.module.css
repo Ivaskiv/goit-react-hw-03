@@ -2,13 +2,13 @@
 .contact {
  padding: 10px;
  background-color: #ffffff;
- border: 3px solid #423d3d;
+ border: 1px solid #423d3d;
  border-radius: 12px;
  margin-bottom: 5px;
  display: flex;
  align-items: center;
  justify-content: space-between;
- font-size: 18px;
+ font-size: 16px;
 }
 
 .contactTitle p{
@@ -31,3 +31,4 @@ p .icon{
  display: flex;
  align-items: center;
 }
+

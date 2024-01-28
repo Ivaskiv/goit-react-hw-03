@@ -4,7 +4,6 @@ import { FaUserLarge } from "react-icons/fa6";
 
 export default function Contact({contact, onDelete}) {
     const { id, name, number } = contact;
-
     
   return (
     <div>
