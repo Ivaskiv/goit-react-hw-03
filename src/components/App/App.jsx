@@ -30,7 +30,9 @@ function App() {
     if (!isContact) {
       return [...prevContacts, { id: Date.now(), ...newContact }];
     }
+    alert(`Contact name ${newContact.name} with number ${newContact.number} is already added.`);
     return prevContacts;
+
   });
 };
 
