@@ -2,21 +2,18 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaUserLarge } from "react-icons/fa6";
 
-export default function Contact({contact, onDelete}) {
-    const { id, name, number } = contact;
+export default function Contact({id, name, number, onDelete}) {
     
-  return (
-    <div>
-      <li className={css.contact} key={id}>
-        <div className={css.contactTitle}>
-          <p className={css.contactName}><FaUserLarge className={css.icon} />{name}</p>
-          <p className={css.contactNumber}><FaPhoneAlt className={css.icon}/>{number}</p>
-        </div>
-      <button className={css.btnContact} onClick={()=>onDelete(id)}>
-        Delete
-      </button>
-    </li>
+return (
+  <li className={css.contact} >
+    <div className={css.contactTitle}>
+      <p className={css.contactName}><FaUserLarge className={css.icon} />{name}</p>
+      <p className={css.contactNumber}><FaPhoneAlt className={css.icon}/>{number}</p>
     </div>
-  )
-  }
+    <button className={css.btnContact} type="submit" onClick={()=>onDelete(id)}>
+      Delete
+    </button>
+  </li>
+)
+}
 

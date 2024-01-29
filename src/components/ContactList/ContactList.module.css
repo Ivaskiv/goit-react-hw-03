@@ -1,12 +1,9 @@
-.contactList{
+.contactList {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
   list-style: none;
-
+  padding: 0;
   width: 400px;
-  padding: 12px;
   border-radius: 4px;
-  list-style: none;
 }

@@ -40,6 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
 h1{
+  color: #a32626;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.searchText{
+  padding: 0 0 0 10px;
+  margin: 0;
+  text-align: start;
   color: #a32626;
 }
